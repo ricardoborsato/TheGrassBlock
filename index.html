@@ -1,0 +1,218 @@
+<!-- This is a commentary, everything with !-- Something -- means that it's just a comment. It doesn't affect the code. -->
+<!-- We'll use this Comment Tag to communicate here and there -->
+<!-- Well, this is a HTML doc. so.. THIS IS A HTML DOCUMENT -->
+<!doctype html>
+<!-- HTML use tags, so let starting usimg them! -->
+<!-- Now, startint the code with tags. -->
+<!-- Just start with <html> and if you notice, sroll down the code, you'll see the end. -->
+<!-- Every tag starts, but ends with a slash "/" -->
+<!-- E.g. <h1> Text </h1> -->
+<!-- Just start with <html> and if you notice, sroll down the code, you'll see the end. (which is </html>) -->
+<!-- Everything will be inside this <html>. Every TAG. -->
+<!-- You can see every TAG on this nice website = https://www.w3schools.com/tags/ -->
+<html lang="en" style="zoom: 90%;">
+  <!-- Here starts the head! The main " brain " of your code -->
+  <!-- You can use to short informations here, so it's not necessary for the code to be too long -->
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- This is our CSS3 file =) -->
+    <!-- Imagine a building, or a house. The structure is the HTML and the visual like painting and such is the CSS -->
+    <!-- This following link, imports the css file present on the folder "css" and the file inside this folder, is named "style.css" -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- The same, but imports a bootstrap from a website -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+                          
+    <!-- 🪐 - FavIcon - 🪐 -->
+    <!---------------------------------------------------------------------->                            
+    <!-- The " FavIcon " is that little icon on the                       -->
+    <!-- top of your Browser window/tab.                                  -->
+    <!-- If you'd like to change it, you can do on here                   -->
+    <!-- You just need to change the " href= " directory to your          -->
+    <!-- wished image. You can also use direct image links, but make sure -->
+    <!-- to use a " .ico " extesion.                                      -->
+    <!-- Usually located inside the <head> (brain) TAG.                   -->    
+    <!---------------------------------------------------------------------->
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <!---------------------------------------------------------------------->    
+    <!-- 🪐 - FavIcon - 🪐 -->
+
+
+    <!-- 🪐 - Website Title - 🪐 -->
+    <!----------------------------------------------------------------------> 
+    <!-- Everytime you open some window in your Browser you can notice    -->
+    <!-- that it's titled. It's "named". You can change your man website  -->
+    <!-- Title right here. Remember to use simple/pratical words.         --> 
+    <!-- Usually located inside the <head> (brain) TAG.                   -->
+    <!---------------------------------------------------------------------->                               
+    <title>TheGrassBlock Server</title>
+    <!---------------------------------------------------------------------->
+    <!-- 🪐 - Website Title - 🪐 -->    
+
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav style="height: 60px;" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <div href="index.html">
+                <a href="index.html">
+                    <img class="img" src="img/serverlogo.png" alt="" srcset="">
+                </a>
+            </div>
+            <!-- Top-Left Server name and destination (href=) -->
+            <a class="navbar-brand" href="index.html">TheGrassBlock Server</a>
+            <!-- Start Button -->
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>   
+            <!-- End Button -->
+
+            <!-- Start Links -->
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <!-- Home -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <!-- Shop -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destination">Shop</a>
+                    </li>
+                    <!-- Contact -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destination">Contact</a>
+                    </li>
+                    <!-- About Us -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destination">About Us</a>
+                    </li>
+                    <!-- Other Page you'd like
+
+                    <li class="nav-item">
+                        <a class="navbar-link" href="#destination">About Us</a>
+                    </li>  
+                        
+                        -->
+                </ul>
+            </div>
+            <!-- End Links -->
+
+        </div>
+    </nav>
+    <!-- End Navigation -->
+
+    <!-- Slide part starts Here -->
+    <!-- Start Header -->
+    <header>
+        <!-- Start Carousel Div -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <!-- Start Carousel Inner -->
+
+            <div class="carousel-inner" role="listbox">
+                <!-- Start First Slide -->
+                <div class="carousel-item active" style="background-image: url('img/slide1.png') ;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>The Adventure Starts Here</h3>
+                        <p>Everything that you can call home!</p>
+                    </div>
+                </div>
+                <!-- End First Slide -->
+                <!-- Start Second Slide -->
+                <div class="carousel-item" style="background-image: url('img/slide2.png') ;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Build whatever you wish</h3>
+                        <p>Let's your imagination fly. </br>The Sky is the limit!</p>
+                    </div>
+                </div>
+                <!-- End Second Slide -->
+                <!-- Start Third Slide -->
+                <div class="carousel-item" style="background-image: url('img/slide3.png') ;">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h3>Join in our Community</h3>
+                        <p>We're a Friendly Community! Let's play together!</p>
+                    </div>
+                </div>
+                <!-- End Third Slide -->                
+            </div>
+            <!-- End Carousel Inner -->
+            <!-- Start Previous Slide -->
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <!-- End Previous Slide -->
+            <!-- Start Next Slide -->
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+            <!-- End Next Slide -->            
+        </div>
+    </header>
+    <!-- End Header-->
+    <!-- End Carousel Div -->
+    <div align="center" style="margin-top: 10px;">
+        <h2>Test</h2>
+    </div>
+    <div align="center">
+        <div class="bg-dark rounded" style="margin-left: 75%; margin-right: 5%; height: auto; width: auto;">
+            <p style="color: white; font-size: 25px; height: auto; width: auto; margin-top: 10px;">
+                Server Status
+            </p>
+        </div>
+    </div>
+    <div align="center">
+        <div class="bg-light rounded" style="margin-left: 75%; margin-right: 5%; height: auto; width: auto;">
+            <section style="color: white; font-size: 25px; height: auto; width: auto; margin-top: 10px;">
+                <p style="color: black; font-size: 18px; margin: 5px;">There are current <b>5</b> players online:
+                    <br>
+                    play.myserver.net
+                    <br>
+                    <br>
+                </p>
+            </section>
+        </div>
+    </div>        
+    <div align="center">
+        <div class="bg-dark rounded" style="margin-left: 75%; margin-right: 5%; height: auto; width: auto;">
+            <p style="color: white; font-size: 25px; height: auto; width: auto; margin-top: 10px;">
+                Latest News
+            </p>
+        </div>
+    </div>
+    <div align="center">
+        <div class="bg-light rounded" style="margin-left: 75%; margin-right: 5%; height: auto; width: auto;">
+            <section style="color: white; font-size: 25px; height: auto; width: auto; margin-top: 10px;">
+                <p style="color: black; font-size: 18px; margin: 5px;">We Released a New Version of the server! Also a new VIP is available for free!
+                    Open our Store and get one for free!
+                    <br><br>
+                    For limited time!
+                </p>
+            </section>
+        </div>
+    </div>
+
+    <!-- Footer -->
+<footer class="page-footer font-small bg-dark">
+    <!-- Copyright -->
+    <div class="footer-copyright page-footer text-center py-3" style="color: white;">© 2019 Copyright:
+      <a href="index.html">TheGrassBlock Server</a>
+    </div>
+    <!-- Copyright -->
+  
+  </footer>
+  <!-- Footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
