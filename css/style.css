@@ -15,3 +15,7 @@
   #features {
     text-align: center;
   }
+
+  .green:hover {
+    color: rgb(65, 179, 45);    
+  }
