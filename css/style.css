@@ -7,3 +7,11 @@
     -o-background-size: cover;
     background-size: cover;
   }
+
+  .green {
+    color: rgb(112, 215, 94);
+  }
+
+  #features {
+    text-align: center;
+  }
