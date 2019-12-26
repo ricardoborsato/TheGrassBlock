@@ -19,3 +19,17 @@
   .green:hover {
     color: rgb(65, 179, 45);    
   }
+
+  /* Every TAG into Html files that uses this class, will
+  get a gray color */
+
+  .textgray {
+    color: gray;
+  }
+
+  /* Every TAG into Html files that uses this class, will
+  get a black color */
+
+  .textblack {
+    color: black;
+  }
