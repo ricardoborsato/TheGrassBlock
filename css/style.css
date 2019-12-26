@@ -57,3 +57,17 @@ section div {
 .carousel-item {
   max-height: 250px; /* input your desired height here */
 }
+
+/* testimonials */
+
+#testimonials {
+  padding: 1% 15%;
+  text-align: center;
+  color: white;
+}
+
+.testemonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
