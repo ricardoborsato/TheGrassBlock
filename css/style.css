@@ -33,3 +33,10 @@
   .textblack {
     color: black;
   }
+
+    /* Every TAG into Html files that uses this class, will
+  get a gray background color */
+
+  .backgray {
+    background-color: rgb(250, 250, 250);
+  }
