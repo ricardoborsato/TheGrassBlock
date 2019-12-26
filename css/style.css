@@ -50,10 +50,10 @@ section div {
   text-align: center;
 }
 
-.card-panel {
-
-}
-
 .center {
   text-align: center;
+}
+
+.carousel-item {
+  max-height: 250px; /* input your desired height here */
 }
