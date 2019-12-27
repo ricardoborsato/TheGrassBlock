@@ -17,6 +17,7 @@
 
 .green {
   color: rgb(112, 215, 94);
+  transition: 0.4s;
 }
 
 #features {
@@ -24,7 +25,8 @@
 }
 
 .green:hover {
-  color: rgb(65, 179, 45);    
+  color: rgb(65, 179, 45);   
+  transition: 0.4s; 
 }
 
   /* Every TAG into Html files that uses this class, will
