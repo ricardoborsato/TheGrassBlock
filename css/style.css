@@ -1,17 +1,19 @@
 .carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  height: auto;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 .borderwhite {
   border-width: 5px;
   border-color: white;
 }  
+
+/* Back to the Top button */
 
 .green {
   color: rgb(112, 215, 94);
@@ -54,11 +56,8 @@ section div {
   text-align: center;
 }
 
-.carousel-item {
-  max-height: 250px; /* input your desired height here */
-}
-
 /* testimonials */
+
 
 #testimonials {
   padding: 1% 15%;
