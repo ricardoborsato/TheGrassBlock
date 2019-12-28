@@ -91,7 +91,7 @@ section div {
 
 .featureboxes:hover {
   border: 1px solid rgb(112, 215, 94);
-  transition: 1.0s;
+  transition: 0.4;
   transform: scale(1.01); /* (101% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 @media only screen and (max-width: 768px) {
