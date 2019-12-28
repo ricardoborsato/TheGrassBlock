@@ -8,22 +8,22 @@
   background-size: cover;
 }
 
+#whythegrass {
+  text-align: center;
+}
+
 .borderwhite {
   border-width: 5px;
   border-color: white;
 }  
 
-/* Back to the Top button */
-
+/* Website Colo Themes */
+/* Main Color */
 .green {
   color: rgb(112, 215, 94);
   transition: 0.4s;
 }
-
-#features {
-  text-align: center;
-}
-
+/* Color when hovering by the mouse pointer */
 .green:hover {
   color: rgb(65, 179, 45);   
   transition: 0.4s; 
@@ -58,6 +58,10 @@ section div {
   text-align: center;
 }
 
+.left {
+  text-align: left;
+}
+
 /* testimonials */
 
 
@@ -72,3 +76,28 @@ section div {
   border-radius: 100%;
   margin: 20px;
 }
+
+#serverfeatures {
+  text-align: left;
+}
+
+/* Server features blocks */
+
+.featureboxes {
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 2%;
+  transition: 0.4s;
+}
+
+.featureboxes:hover {
+  border: 1px solid rgb(112, 215, 94);
+  transition: 1.0s;
+  transform: scale(1.01); /* (101% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="featureboxes"] {
+    width: 80%;
+  }
+}
+
