@@ -77,15 +77,16 @@ section div {
   margin: 20px;
 }
 
+/* 
 #serverfeatures {
   text-align: left;
 }
+*/
 
 /* Server features blocks */
 
 .featureboxes {
   border: 1px solid rgb(235, 235, 235);
-  border-radius: 2%;
   transition: 0.4s;
 }
 
