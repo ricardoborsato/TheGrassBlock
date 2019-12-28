@@ -87,12 +87,12 @@ section div {
 
 .featureboxes {
   border: 1px solid rgb(235, 235, 235);
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 .featureboxes:hover {
   border: 1px solid rgb(112, 215, 94);
-  transition: 0.4;
+  transition: 0.2;
   transform: scale(1.01); /* (101% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 @media only screen and (max-width: 768px) {
@@ -102,3 +102,7 @@ section div {
   }
 }
 
+.img-thumbnail {
+  border: 0 none;
+  box-shadow: none;
+}
