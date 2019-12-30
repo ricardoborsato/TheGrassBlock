@@ -86,32 +86,24 @@ section div {
 /* Server features blocks */
 
 .featureboxes {
-  border: 1px solid white;
-  transition: 0.25s;
+  border: 0px solid white;
+  transition: 0.2s;
+  width: auto;
+  height: auto;
 }
 
 .featureboxes:hover {
-  border: 1px solid rgb(112, 215, 94);
-  transition: 0.25s;
-  transform: scale(1.01); /* (101% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  border: 2px solid rgb(112, 215, 94);
+  transition: 0.18s;
+  transform: scale(1.1); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
+/* The following class resizes the images for features */
 .img-featureboxes {
   max-width: 100px;
   max-height: 100px;
   width: auto;
   height: auto;
-}
-
-.featureboxes-spaces {
-  padding-left: 1px;
-  padding-top: 1px;
-  padding-bottom: 1px;
-  padding-right: 1px;
-  margin-left: 2px;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  margin-right: 2px;
 }
 
 /* For the Player count */
