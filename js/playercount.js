@@ -8,12 +8,11 @@
 
 var url = "https://api.minetools.eu/ping/catempo.ggs.gg/25565";
 $.getJSON(url, function(r) {
-    //data is the JSON string
  if(r.error){
     $('#rest').html('The Server is Offline');
    return false;
  } 
 var pl = '';
- if(r.players.sample.length > 0 ){ pl = r.players.sample[0].name;} 
+ if(r.players.sample.length > 0 ){ pl = r.players.sample[players].name;} 
   $('#rest').html(''+r.players.online+pl);
 });

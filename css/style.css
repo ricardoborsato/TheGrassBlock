@@ -113,3 +113,8 @@ section div {
   margin-bottom: 2px;
   margin-right: 2px;
 }
+
+/* For the Player count */
+.playercount {
+  display: inline-block;
+}
