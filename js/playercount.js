@@ -6,10 +6,10 @@
 //E.g.:
 //var url = "https://api.minetools.eu/ping/myserver.net/25565";
 
-var url = "https://api.minetools.eu/ping/catempo.ggs.gg/25565";
+var url = "https://api.minetools.eu/ping/mc.thegrassblock.org/25565";
 $.getJSON(url, function(r) {
  if(r.error){
-    $('#rest').html('The Server is Offline');
+    $('#rest').html('0');
    return false;
  } 
 var pl = '';
