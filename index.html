@@ -1,9 +1,16 @@
 <!doctype html>
-<html lang="en" style="zoom: 90%;">
+<html lang="en" style="zoom: 85%;">
 
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- 🪐 - Description (For SEO) - 🪐 -->  
+    <!---------------------------------------------------------------------->    
+    <meta name="description" content="TheGrassBlock Server. A Nice Minecraft Server. It is the best! Lets play together">
+    <!----------------------------------------------------------------------> 
+    <!-- 🪐 - Description (For SEO) - 🪐 -->
+
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
@@ -16,8 +23,8 @@
 
 
     <!-- 🪐 - Website Title - 🪐 -->
-    <!---------------------------------------------------------------------->                             
-    <title>TheGrassBlock Server</title>
+    <!---------------------------------------------------------------------->    
+    <title class='webistetitle'>TheGrassBlock Server</title>                         
     <!---------------------------------------------------------------------->
     <!-- 🪐 - Website Title - 🪐 -->    
 
@@ -29,7 +36,7 @@
 
         <!-- 🪐 - Website Logo - 🪐 -->
         <!---------------------------------------------------------------------->  
-        <a href="index.html"><img src="img/serverlogo.png" alt="" srcset="" style="width: 50px; padding-right: 10px;"></a>
+        <a href="index.html"><img src="img/serverlogo.png" style="width: 50px; padding-right: 10px;"></a>
         <!---------------------------------------------------------------------->  
         <!-- 🪐 - Website Logo - 🪐 -->
         
@@ -50,8 +57,11 @@
                   </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Shop</a>
+              <a class="nav-link" href="shop.html">Shop</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="subpages/webmap.html">WebMap</a>
+            </li>                   
             <li class="nav-item">
               <a class="nav-link" href="#">Forums</a>
             </li>
@@ -123,7 +133,8 @@
       <div class="alert alert-success container" role="alert">
         <!-- 🪐 - Player Count - 🪐 -->
         <!---------------------------------------------------------------------->
-        Let's break some blocks? Join now at <b>mc.thegrassblock.org</b> with others <b><div class="playercount" id="rest">0</div class="pla"></b> players online.
+        Let's break some blocks? Join now at <b>mc.thegrassblock.org</b> with others
+        <b><div class="playercount" id="rest">0</div></b> players online.
         <!---------------------------------------------------------------------->
         <!-- 🪐 - Player Count - 🪐 -->
       </div>
@@ -140,18 +151,18 @@
     <section id="whythegrass">
       <div class="container">
         <div class="row textgray center">
-          <div class="feature-box col-lg-4 main-f-color">
-            <i class="fas fa-memory fa-4x" style="margin-top: 5%;"></i>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-memory fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
             <h3 class="textblack">Faster than Flash</h3>
             <p class="descbox textgray">We are hosted with a great hosting! Our package is the best one so you won't experience lag or crashes that interrupts the gameplay.</p>
           </div>
-          <div class="feature-box col-lg-4 main-f-color">
-            <i class="fas fa-rocket fa-4x" style="margin-top: 5%;"></i>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-rocket fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
             <h3 class="textblack">Locally play</h3>
             <p class="descbox textgray">Near to you! As we have no lag, the ping is also extremely low. Seems you're playing locally!</p>
           </div>
-          <div class="feature-box col-lg-4 main-f-color">
-            <i class="fas fa-heart fa-4x" style="margin-top: 5%;"></i>
+          <div class="feature-box col-lg-4">
+            <i class="fas fa-heart fa-4x main-f-color" style="margin-top: 5%; box-shadow: none;"></i>
             <h3 class="textblack">Guaranteed fun.</h3>
             <p class="descbox textgray">Find the love of your Minecraft. Play with us and increase</p>
           </div>        
@@ -159,19 +170,47 @@
       </div>
     </section>
 
+    <!-- News Section Title -->
     <section class="py-5" style="margin-top: 1rem;">
       <div class="container">
-        <h4 class="display-4">Listen to the players!</h4>
-        <p class="lead">Several famous people play at TheGrassBlock and recommend to everyone to come and meet the family!</p>
+        <h4 class="display-4">News</h4>
+        <p class="lead">News coming out of the oven!</p>
       </div>
     </section>
 
-    <!-- Testemunials -->
-    <section id="testimonials" class="container">
-      <img class="testemonial-image" src="https://crafatar.com/renders/head/a3a8213f-f05a-447a-898b-0416ba01cb7f" alt="testemunialbyyoutuber">
-      <p class="textblack">Petter, A Famous Youtuber</p>
-      <h4 class="textblack"><i>"TheGrassBlock is the Server! There is no words how describe it."</h4>
-      <h4 class="textblack"><i>"It's simply awesome and recommended."</i></h4>
+    <!-- News Section -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col left col-sm-12 col-lg-6">
+            <img src="img/minecraft-chest.jpg" alt="" srcset="" class="img-news">
+          </div>
+          <div class="col left col-sm-12 col-lg-6">
+            <!-- News Title -->
+            <h4>
+              Steve Just found a New Chest!
+            </h4>
+            <!-- News content -->
+            <p>
+              Our server was having an event when suddenly Steve found a chest
+              in the middle of the world.
+              There was any expectations about it but it actually found diamonds!
+              That ways great Steve!
+              <!-- A little line break =) -->
+              <br>
+              Steve took all diamonds from the Chest and took for him. The point is that
+              a player forgot to protect the chest! Oh no, Steve!
+              <!-- A little line break =) -->              
+              <br>
+              Steve Ran around the TheGrassBlock Spawn and starting dropping all diamonds
+              from the mystery unknown player and then quit from the server.
+              <!-- A little line break =) -->              
+              <br>
+              Whata day? uh!
+            </p>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="py-5" style="margin-top: 1rem;">
@@ -190,10 +229,10 @@
       <div class="container">
         <div class="row">
           <!-- Item starts -->
-          <div class="featureboxes col-sm-12 col-md-4">
-            <img class="img-featureboxes" src="img/features1.png" alt="" srcset="">
-            <h5>Great Economy</h5>
-            <p>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features1.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Great Economy</h5>
+            <p class="textblack">
               Our economy is very balanced! There is no way to be very rich or very poor.
               <br>
               Buy items from the Villagers' tents and invest in your adventure!
@@ -201,20 +240,20 @@
           </div>
           <!-- Item Ends -->
           <!-- Item starts -->
-          <div class="featureboxes col-sm-12 col-md-4">
-            <img class="img-featureboxes" src="img/features2.png" alt="" srcset="">
-            <h5>Towny System</h5>
-            <p>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features2.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Towny System</h5>
+            <p class="textblack">
               Buy your own house today! TheGrassBlock runs with the greatest Towny system.
               <br>
               Build your house in our city today!
             </p>
           </div>
           <!-- Item Ends -->
-          <div class="featureboxes col-sm-12 col-md-4">
-            <img class="img-featureboxes" src="img/features3.png" alt="" srcset="">
-            <h5>Friendly PVP</h5>
-            <p>
+          <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
+            <img class="img-featureboxes" src="img/features3.png" alt="" srcset="" style="padding-top: 10px;">
+            <h5 class="textblack">Friendly PVP</h5>
+            <p class="textblack"> 
               TheGrassBlock has daily PvP Events just for fun!
               <br>
               Bring your friends and let's practice together!
@@ -228,14 +267,88 @@
     </section>
 
 
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Listen to the players!</h4>
+        <p class="lead">Several famous people play at TheGrassBlock and recommend to everyone to come and meet the family!</p>
+      </div>
+    </section>
+
+    <!-- Testemunials -->
+    <section id="testimonials" class="container" style="padding-bottom: 3rem;">
+      <img class="testemonial-image" src="https://crafatar.com/renders/head/a3a8213f-f05a-447a-898b-0416ba01cb7f" alt="testemunialbyyoutuber">
+      <p class="textblack">Petter, A Famous Youtuber</p>
+      <h4 class="textblack"><i>"TheGrassBlock is the Server! There is no words how describe it."</h4>
+      <h4 class="textblack"><i>"It's simply awesome and recommended."</i></h4>
+    </section>
+
     <!-- Footer -->
-    <footer class="page-footer font-small bg-dark">
-    <!-- Copyright -->
-      <div class="footer-copyright page-footer text-center py-3" style="color: white;">© 2019 Copyright:
+    <footer class="page-footer font-small bg-dark pt-4">
+      <!-- Footer Elements -->
+      <div class="container">
+        <!--Grid row-->
+        <div class="row">
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">TheGrassBlock</h4>
+            <p class="textgray">
+              The best Minecraft Server since 1985!
+              <br>
+              Where the GrassBlocks were the main objective!
+              <br>
+              Made with Love by thw highest Minecrafters in the world.
+              From plugins developer TheGrassBlock was originally
+              created to be a simple Survival Server, but now it has
+              the most Survival Comunnity from America and Europe!
+            </p>
+          </div>
+          <!--Grid column-->
+          <!--Grid column-->
+          <div class="col-md-6 mb-4">
+            <h4 style="color: white;">Connect with us!</h4><br>
+            <div class="row">
+              <!-- Discord icon -->              
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="https://linkhere">
+                  <i class="fab fa-discord fa-2x" style="color: #7289DA;"></i>
+                  Discord
+                </a>
+              </div>
+              <!-- Youtube icon -->
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="https://linkhere">
+                  <i class="fab fa-youtube fa-2x" style="color: red;"></i>
+                  Youtube
+                </a>
+              </div>              
+              <!-- Twitter Icon --> 
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="https://linkhere">
+                  <i class="fab fa-twitter fa-2x" style="color: #1DA1F2;"></i>
+                  Twitter
+                </a>
+              </div> 
+              <!-- Facebook Icon -->
+              <div class="col-sm-12 col-md-3">
+                <a class="medias" href="https://linkhere">
+                  <i class="fab fa-facebook-f fa-2x" style="color: #4267B2;"></i>
+                  Facebook
+                </a>
+              </div>                                         
+            </div>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </div>
+      <!-- Footer Elements -->
+      <div class="footer-copyright page-footer text-center py-3" style="color: white; background-color: rgb(37, 41, 46);">
+        © 2020 Copyright:
         <a href="index.html">TheGrassBlock Server</a>
       </div>
     </footer>
-  <!-- Footer -->
+    <!-- Footer -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Playercount -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
