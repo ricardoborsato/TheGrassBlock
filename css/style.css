@@ -25,7 +25,7 @@
 }
 /* Color when hovering by the mouse pointer */
 .main-f-color:hover {
-  box-shadow: 0 0 0 2px rgb(65, 179, 45);   
+  box-shadow: 0 0 7px 2px rgb(65, 179, 45);   
   color: rgb(65, 179, 45);   
   transition: 0.4s; 
 }
@@ -84,7 +84,7 @@ section div {
 }
 
 .testemonial-image {
-  width: 20%;
+  width: 10%;
   border-radius: 100%;
   margin: 20px;
 }
@@ -145,4 +145,24 @@ section div {
    color: gray;
    text-decoration: none; 
    cursor: pointer;  
+}
+
+.card-img-top {
+  max-width: 150px;
+  max-height: 150px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  align-content: center;
+  padding-top: 1rem;
+}
+
+.card {
+  margin-top: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
 }

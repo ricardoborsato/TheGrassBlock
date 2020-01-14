@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
                           
     <!-- 🪐 - FavIcon - 🪐 -->  
     <!---------------------------------------------------------------------->
@@ -139,7 +140,6 @@
         <!-- 🪐 - Player Count - 🪐 -->
       </div>
     </section>
-    
     <!-- Main Features Title -->
     <section class="py-5" style="margin-top: 1rem;">
       <div class="container">
@@ -227,7 +227,7 @@
     <!-- Features Section -->
     <section>
       <div class="container">
-        <div class="row">
+        <div class="row center container" style="margin-right: 0px; margin-left: 0px;">
           <!-- Item starts -->
           <div class="textblack main-f-color featureboxes col-sm-12 col-md-4">
             <img class="img-featureboxes" src="img/features1.png" alt="" srcset="" style="padding-top: 10px;">
@@ -275,12 +275,189 @@
     </section>
 
     <!-- Testemunials -->
-    <section id="testimonials" class="container" style="padding-bottom: 3rem;">
-      <img class="testemonial-image" src="https://crafatar.com/renders/head/a3a8213f-f05a-447a-898b-0416ba01cb7f" alt="testemunialbyyoutuber">
+    <section id="testimonials" style="padding-bottom: 3rem; background-color: rgb(205, 255, 214);">
+      <!-- SRC= Use Player's username. E.g.: petter Example below-->
+      <img class="testemonial-image" src="https://minotar.net/avatar/joao" alt="testemunialbyyoutuber">
       <p class="textblack">Petter, A Famous Youtuber</p>
       <h4 class="textblack"><i>"TheGrassBlock is the Server! There is no words how describe it."</h4>
       <h4 class="textblack"><i>"It's simply awesome and recommended."</i></h4>
     </section>
+
+    <!-- Staff Cards Title -->
+    <section class="py-5" style="margin-top: 1rem;">
+      <div class="container">
+        <h4 class="display-4">Meet our team!</h4>
+        <p class="lead">Our Bests Helpers! You can always count with them!</p>
+      </div>
+    </section>
+
+    <!-- Staff Cards Cards -->
+    <section style="padding-bottom: 3rem;">
+      <div class="container">
+        <div class="card-deck">
+          <div class="row">
+            <!-- Start a Staff Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/petter" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  <!--Staff Name-->
+                  Player1
+                  </h4>
+                  <!-- On style="color: blueviolet;" you can change the color. Feel free to use Color codes such REX 👀!-->
+                  <h6 class="card-title" style="color: blueviolet;">
+                  <!-- Staff Role -->
+                  [Owner]
+                  </h6>
+                  <p class="card-text">
+                  <!-- Staff Information -->
+                  Player1 is TheGrassBlock Founder.
+                  He worked hard on begginig to keep the Server Alive and make everyting possible.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                  <!-- Staff Card Bottom -->
+                  Joined on 2011
+                  </small>
+                </div>
+              </div>
+            </div>
+            <!-- Ends a Staff Card -->
+            <!-- Start a Staff Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/zixer" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  <!--Staff Name-->
+                  Player2
+                  </h4>
+                  <!-- On style="color: blueviolet;" you can change the color. Feel free to use Color codes such REX 👀!-->
+                  <h6 class="card-title" style="color: blueviolet;">
+                  <!-- Staff Role -->
+                  [Co-Owner]
+                  </h6>
+                  <p class="card-text">
+                  <!-- Staff Information -->
+                  Player2 is TheGrassBlock Co-Owner.
+                  Usually is online everyday and gives all Information to the Player1, the server owner.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                  <!-- Staff Card Bottom -->
+                  Joined on 2012
+                  </small>
+                </div>
+              </div>
+            </div>
+            <!-- Ends a Staff Card -->
+            <!-- Start a Staff Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/Gandalf" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  <!--Staff Name-->
+                  Gandalf
+                  </h4>
+                  <!-- On style="color: ;" you can change the color. Feel free to use Color codes such REX 👀!-->
+                  <h6 class="card-title" style="color: rgb(214, 43, 0);">
+                  <!-- Staff Role -->
+                  [Admin]
+                  </h6>
+                  <p class="card-text">
+                  <!-- Staff Information -->
+                  Gandalf is our First Server Admin.
+                  Makes every player inspired.
+                  Gandalf also uses the magic to Setup every server coner!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                  <!-- Staff Card Bottom -->
+                  Joined on 2013
+                  </small>
+                </div>
+              </div>
+            </div>
+            <!-- Ends a Staff Card -->    
+            <!-- Start a Staff Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">           
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/Police" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  <!--Staff Name-->
+                  Player3
+                  </h4>
+                  <!-- On style="color: ;" you can change the color. Feel free to use Color codes such REX 👀!-->
+                  <h6 class="card-title" style="color: rgb(0, 0, 175);">
+                  <!-- Staff Role -->
+                  [Mod]
+                  </h6>
+                  <p class="card-text">
+                  <!-- Staff Information -->
+                  Player3 is the Eye of Police!
+                  Pay atention to every place! Don't use Hacks! Don't go against the Rules!
+                  She'll make Justice!
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                  <!-- Staff Card Bottom -->
+                  Joined on 2013
+                  </small>
+                </div>
+              </div>
+            </div>
+            <!-- Ends a Staff Card -->    
+            <!-- Start a Staff Card -->
+            <div class="col-sm-12 col-md-3 col-lg-3">          
+              <div class="card border-success">
+                <div class="container">
+                <img class="card-img-top" src="https://minotar.net/avatar/Notch" alt="Card image cap">
+                </div>
+                <div class="card-body">
+                  <h4 class="card-title">
+                  <!--Staff Name-->
+                  Other
+                  </h4>
+                  <!-- On style="color: ;" you can change the color. Feel free to use Color codes such REX 👀!-->
+                  <h6 class="card-title" style="color: rgb(0, 0, 175);">
+                  <!-- Staff Role -->
+                  [Mod]
+                  </h6>
+                  <p class="card-text">
+                  <!-- Staff Information -->
+                  Other exampe to exemplify the example.
+                  The card lines should give 1 line on mobile or 5 cards on desktop.
+                  </p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">
+                  <!-- Staff Card Bottom -->
+                  Joined on 2013
+                  </small>
+                </div>
+              </div>
+            </div>
+            <!-- Ends a Staff Card -->                            
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Staff Cards Card Section-->
 
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark pt-4">
@@ -351,10 +528,10 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Playercount -->
+    <script type="text/javascript" src="js/playercount.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/playercount.js"></script>
   </body>
 </html>

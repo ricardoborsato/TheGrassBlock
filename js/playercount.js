@@ -6,14 +6,22 @@
 //E.g.:
 //var url = "https://api.minetools.eu/ping/myserver.net/25565";
 
+
+function servername() {
+  document.title = prompt('Modify the title', document.title);
+}
+
+
 var url = "https://api.minetools.eu/ping/mc.thegrassblock.org/25565";
+//https://mcapi.us/server/status?ip=666.fluctis.com&port=25757
 $.getJSON(url, function(r) {
+    //data is the JSON string
  if(r.error){
-     //If it can't find the server, use " 0 ". Or other word, feel free to change. =)
-    $('#rest').html('0');
+    $('#rest').html('Server Offline');
    return false;
  } 
 var pl = '';
- if(r.players.sample.length > 0 ){ pl = r.players.sample[players].name;} 
-  $('#rest').html(''+r.players.online+pl);
+ if(r.players.sample.length > 0 )
+  $('#rest').html(r.players.online+pl);
+    
 });
