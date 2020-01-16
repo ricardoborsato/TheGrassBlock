@@ -59,12 +59,12 @@
             <li class="nav-item">
               <a class="nav-link" href="#">Shop</a>
             </li>
-            <li class="nav-item active">
-                <a class="nav-link">WebMap</a>
-            </li>    
             <li class="nav-item">
-              <a class="nav-link" href="rules.html">Rules</a>
-            </li>                        
+                <a class="nav-link" href="webmap.html">WebMap</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link">Rules</a>
+            </li>                          
             <li class="nav-item">
               <a class="nav-link" href="#">Forums</a>
             </li>
@@ -89,32 +89,82 @@
     <!-- Top Navigation End -->
 
     <section class="py-5" style="margin-top: 2rem;">
-        <div class="container">
-          <h4 class="display-4">Minimap</h4>
-          <p class="lead">🗺 Our Server Map! 🗺</p>
-        </div>
-      </section>
-      <style>
-        iframe {
-            width: 75%; /* It should not be 100% */
-            height: 1000px;
-            display: block;
-            padding-top: 0rem;
-            padding-bottom: 10rem;
-        }
-      </style>
-    <section style="
-    padding-left: 2%;
-    padding-right: 2%;">
-        <div>    
-          <!-- You can set your Dynmap's map URL on the line (src="http://link")-->
-          <iframe 
-          class="container" 
-          frameBorder="0"
-          src="http://dynmap:8123/"><!-- <--- Dynmap Link Goes here <--- there -->
-          </iframe>
-        </div>
-    </section>
+      <div class="container">
+        <h4 class="display-4">Server Rules</h4>
+        <p class="lead">⚠📜 Follow and Respect 📜⚠</p>
+      </div>
+  </section>
+
+  <!-- Thanks @Skelly from Codepen! -->
+  <section>
+    <div class="container py-3">
+      <div class="row">
+        <div class="col-10 mx-auto">
+          <div class="accordion" id="faqExample">
+            <div class="card">
+              <div class="card-header p-2" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Q: How does this work?
+                  </button>
+                </h5>
+              </div>
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqExample">
+                  <div class="card-body">
+                    <b>Answer:</b> It works using the Bootstrap 4 collapse component with cards to make a vertical accordion that expands and collapses as questions are toggled.
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header p-2" id="headingTwo">
+                  <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Q: What is Bootstrap 4?
+                    </button>
+                        </h5>
+                      </div>
+                      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqExample">
+                          <div class="card-body">
+                              Bootstrap is the most popular CSS framework in the world. The latest version released in 2018 is Bootstrap 4. Bootstrap can be used to quickly build responsive websites.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header p-2" id="headingThree">
+                          <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Q. What is another question?
+                              </button>
+                            </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                          <div class="card-body">
+                              The answer to the question can go here.
+                          </div>
+                      </div>
+                  </div>
+                  <div class="card">
+                      <div class="card-header p-2" id="headingThree">
+                          <h5 class="mb-0">
+                              <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Q. What is the next question?
+                              </button>
+                            </h5>
+                      </div>
+                      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqExample">
+                          <div class="card-body">
+                              The answer to this question can go here. This FAQ example can contain all the Q/A that is needed.
+                          </div>
+                      </div>
+                  </div>
+              </div>
+  
+          </div>
+      </div>
+      <!--/row-->
+  </div>
+  <!--container-->
+  </section>
 
     <!-- Footer -->
     <footer class="page-footer font-small bg-dark pt-4">
