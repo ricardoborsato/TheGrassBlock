@@ -15,7 +15,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/24b38c7cb1.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-                          
+    <!-- For the Player Count -->
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <!-- Credits: https://github.com/leonardosnt/mc-player-counter -->
+
     <!-- 🪐 - FavIcon - 🪐 -->  
     <!---------------------------------------------------------------------->
     <link rel="shortcut icon" href="favicon.ico"/>
@@ -62,7 +65,10 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="subpages/webmap.html">WebMap</a>
-            </li>                   
+            </li>       
+            <li class="nav-item">
+              <a class="nav-link" href="subpages/rules.html">Rules</a>
+            </li>                         
             <li class="nav-item">
               <a class="nav-link" href="#">Forums</a>
             </li>
@@ -132,12 +138,14 @@
     <!-- Player number count and IP -->
     <section class="container" style="padding-top: 1rem;">
       <div class="alert alert-success container" role="alert">
+
         <!-- 🪐 - Player Count - 🪐 -->
         <!---------------------------------------------------------------------->
         Let's break some blocks? Join now at <b>mc.thegrassblock.org</b> with others
-        <b><div class="playercount" id="rest">0</div></b> players online.
+        <b><span data-playercounter-ip="your.server.ip.here">0</span></b> players online.
         <!---------------------------------------------------------------------->
         <!-- 🪐 - Player Count - 🪐 -->
+        
       </div>
     </section>
     <!-- Main Features Title -->
@@ -540,7 +548,18 @@
       </div>
     </footer>
     <!-- Footer -->
-
+    <!-- Staff Cards Propouses -->
+    <style>
+      .card {
+        margin-top: 10px;
+        transition: 0.5s;
+      }
+      
+      .card:hover {
+        transform: scale(1.01);
+        transition: 0.5s;
+      }
+    </style>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS, then Playercount -->
     <script type="text/javascript" src="js/playercount.js"></script>
