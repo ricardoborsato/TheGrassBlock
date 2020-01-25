@@ -1,0 +1,158 @@
+.carousel-item {
+    height: auto;
+    min-height: 350px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+  
+  #whythegrass {
+    text-align: center;
+  }
+  
+  .borderwhite {
+    border-width: 5px;
+    border-color: white;
+  }  
+  
+  /* Website Color Themes */
+  /* Main Color */
+  .main-f-color {
+    color: rgb(112, 215, 94);
+    transition: 0.4s;
+  }
+  /* Color when hovering by the mouse pointer */
+  .main-f-color:hover {
+    box-shadow: 0 0 7px 2px rgb(65, 179, 45);   
+    color: rgb(65, 179, 45);   
+    transition: 0.4s; 
+  }
+  
+    /* Every TAG into Html files that uses this class, will
+    get a gray color */
+  
+  .textgray {
+    color: gray;
+  }
+  
+    /* Every TAG into Html files that uses this class, will
+    get a black color */
+  
+  .textblack {
+    color: black;
+  }
+  
+    /* Every TAG into Html files that uses this class, will
+    get a black color */
+  
+    .textwhite {
+      color: white;
+    }
+  
+    /* Every TAG into Html files that uses this class, will
+    get a gray background color */
+  
+  .backgray {
+    background-color: rgb(248, 248, 248);
+  }
+  
+  section div {
+    text-align: center;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .left {
+    text-align: left;
+  }
+  
+  .right {
+    text-align: right;
+  }
+  
+  /* testimonials */
+  
+  
+  #testimonials {
+    padding: 1% 15%;
+    text-align: center;
+    color: white;
+  }
+  
+  .testemonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+  }
+  
+  /* 
+  #serverfeatures {
+    text-align: left;
+  }
+  */
+  
+  /* Server features blocks */
+  
+  .featureboxes {
+    border: 0px solid white;
+    transition: 0.15s;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  
+  .featureboxes:hover {
+    transition: 0.15s;
+    transform: scale(1.01); /* (110% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    border-radius: 3px;
+    text-align: center;
+  }
+  
+  /* The following class resizes the images for features */
+  .img-featureboxes {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  
+  /* For the Player count */
+  .playercount {
+    display: inline-block;
+  }
+  
+  /* For the News. Should have a predetermined size */
+  .img-news {
+    max-width: 700px;
+    max-height: 350px;
+  }
+  
+  /* For footer Medias */
+  
+  .medias {
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .medias:hover 
+  {
+     color: gray;
+     text-decoration: none; 
+     cursor: pointer;  
+  }
+  
+  .card-img-top {
+    max-width: 150px;
+    max-height: 150px;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-content: center;
+    padding-top: 1rem;
+  }
