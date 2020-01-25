@@ -156,13 +156,3 @@ section div {
   align-content: center;
   padding-top: 1rem;
 }
-
-.card {
-  margin-top: 10px;
-  transition: 0.5s;
-}
-
-.card:hover {
-  transform: scale(1.01);
-  transition: 0.5s;
-}
